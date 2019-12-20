@@ -1,3 +1,4 @@
 # ICT-BASED-PROJECT
 B.ed. SEM 4
-TEST LINK : .github/workflows/test.html
+
+LINK : https://hdsrvs.github.io/ICT-BASED-PROJECT/
