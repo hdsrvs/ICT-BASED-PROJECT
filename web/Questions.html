@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Questions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       
+-:શિક્ષણ અભિયોગ્યતા:-<br><br> 
+
+        <form>
+            1. જો વિદ્યાર્થીઓ તમારા વર્ગખંડમાં હાજર ન હોય તો આપ એક અધ્યાપક તરીકે શું કરશો ?
+<br><br>
+            <input type="radio" name="colors" id="red">વિદ્યાર્થીઓને તેમની ગેરહાજરી બદલ દોષિત ઠરાવશો.
+<br>
+            <input type="radio" name="colors" id="blue">વિદ્યાર્થીઓની ઘેરહાજરીના કારણો જાણી તેને દૂર કરવાના પ્રયત્નો કરવા 
+<br>
+            <input type="radio" name="colors" id="red">વિદ્યાર્થીઓની વર્તમાન પ્રવૃત્તિ જોઈ ચૂપ રહેવું 
+<br>
+            <input type="radio" name="colors" id="blue">અધ્યયન અધ્યાપનની  કેટલીક રુચિપૂર્ણ પદ્ધતિઓનો ઉપયોગ કરવાનું વિચારીશ 
+
+        </form>
+
+        <button onclick="check()">Check "Red"</button>
+        <button onclick="uncheck()">Uncheck "Red"</button>
+
+        <script>
+            function check() {
+                document.getElementById("red").checked = true;
+            }
+            function uncheck() {
+                document.getElementById("red").checked = false;
+            }
+        </script>
+
+    </body>
+</html>
