@@ -1,2 +1,0 @@
-# ICT-BASED-PROJECT
-B.ed. SEM 4
