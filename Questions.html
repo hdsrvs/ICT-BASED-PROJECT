@@ -165,6 +165,27 @@
             <br>
             <input type="checkbox" name="15" id="chk60" disabled="true">D)<input type="radio" name="15" id="60">Beatitude
             <br><br>
+            <b>16.A person living permanently in a certain place</b>
+            <br><br>
+            <input type="checkbox" name="16" id="chk61" disabled="true">A)<input type="radio" name="16" id="61">Resident
+            <br>
+            <input type="checkbox" name="16" id="chk62" disabled="true">B)<input type="radio" name="16" id="62">Native
+            <br>
+            <input type="checkbox" name="16" id="chk63" disabled="true">C)<input type="radio" name="16" id="63">Domicile
+            <br>
+            <input type="checkbox" name="16" id="chk64" disabled="true">D)<input type="radio" name="16" id="64">Subject
+            <br><br>
+            <b>17.One who loves mankind is called</b>
+            <br><br>
+            <input type="checkbox" name="17" id="chk65" disabled="true">A)<input type="radio" name="17" id="65">Optimist
+            <br>
+            <input type="checkbox" name="17" id="chk66" disabled="true">B)<input type="radio" name="17" id="66">Philanthropist
+            <br>
+            <input type="checkbox" name="17" id="chk67" disabled="true">C)<input type="radio" name="17" id="67">Optometrist
+            <br>
+            <input type="checkbox" name="17" id="chk68" disabled="true">D)<input type="radio" name="17" id="68">Truant
+            <br><br>
+
 
         </form>
    
@@ -177,50 +198,57 @@
                 var marks = 0;
 
                 if (document.getElementById("1").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("7").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("10").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("14").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("18").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("21").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("27").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("30").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("33").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("40").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("41").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("46").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("50").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("56").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
                 }
                 if (document.getElementById("58").checked == true) {
-                    marks = marks + 2;
+                    marks = marks + 1;
 
+                }
+                if (document.getElementById("63").checked == true) {
+                    marks = marks + 1;
+
+                }
+                if (document.getElementById("66").checked == true) {
+                    marks = marks + 1;
                 }
                 document.getElementById("chk1").checked="true" ; 
                 document.getElementById("chk7").checked="true" ;
@@ -237,7 +265,8 @@
                 document.getElementById("chk50").checked="true" ; 
                 document.getElementById("chk56").checked="true" ; 
                 document.getElementById("chk58").checked="true" ; 
-                
+                document.getElementById("chk63").checked="true" ;
+                document.getElementById("chk66").checked="true" ;
                 document.getElementById("demo").innerHTML =
                         "You Scored: " + marks + "/30";
             }
